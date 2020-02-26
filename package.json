@@ -1,0 +1,39 @@
+{
+	"name": "@amoutonbrady/sbg",
+	"version": "0.0.0",
+	"description": "CLI to make the easiest static blogs",
+	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
+	"repository": "https://github.com/amoutonbrady/sbg",
+	"license": "MIT",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"bin": "source/cli.js",
+	"scripts": {
+		"release": "np --no-tests"
+	},
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^2.0.6",
+		"autoprefixer": "^9.7.4",
+		"consola": "^2.11.3",
+		"cssnano": "^4.1.10",
+		"esm": "^3.2.25",
+		"fs-extra": "^8.1.0",
+		"gray-matter": "^4.0.2",
+		"html-minifier": "^4.0.0",
+		"marked": "^0.8.0",
+		"np": "^6.1.0",
+		"nunjucks": "^3.2.0",
+		"ora": "^4.0.3",
+		"postcss": "^7.0.27",
+		"shiki": "^0.1.6",
+		"tailwindcss": "^1.2.0",
+		"terser": "^4.6.4",
+		"workbox-build": "^5.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^1.19.1",
+		"serve": "^11.3.0"
+	}
+}
