@@ -1,6 +1,6 @@
 {
 	"name": "@amoutonbrady/sbg",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "CLI to make the easiest static blogs",
 	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
 	"repository": "https://github.com/amoutonbrady/sbg",

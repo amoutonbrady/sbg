@@ -60,10 +60,9 @@ The `content` variable is the compiled markdown.
 
 List of supported template files:
 
-| Name        | Available variables                                                                                                                                                                                                                                                                     |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `post.html` | * `content`: markdown content as html<br>* `createdAt`: creation date (js date) of the markdown file<br>* `updatedAt`: last modified date (js date) of the markdown file<br>* `url`: relative url of the blog post<br>* Any other data defined in the front matter of the markdown file |
-
+| Name        | Available variables                                                                                                                                                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `post.html` | _ `content`: markdown content as html<br>_ `createdAt`: creation date (js date) of the markdown file<br>_ `updatedAt`: last modified date (js date) of the markdown file<br>_ `url`: relative url of the blog post<br>\* Any other data defined in the front matter of the markdown file |
 
 More to come as the project needs it.
 
@@ -71,7 +70,7 @@ More to come as the project needs it.
 
 List of variables injected into each page:
 
-* `posts`: List of posts which an array of object containing the same data as the `post.html` template minus the `content` one.
+-   `posts`: List of posts which an array of object containing the same data as the `post.html` template minus the `content` one.
 
 ## Config
 
