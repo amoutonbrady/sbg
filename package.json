@@ -6,6 +6,9 @@
 	"repository": "https://github.com/amoutonbrady/sbg",
 	"license": "MIT",
 	"private": false,
+	"files": [
+		"source"
+	],
 	"publishConfig": {
 		"access": "public"
 	},
